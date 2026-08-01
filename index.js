@@ -4,8 +4,8 @@ app.use(express.json());
 
 // ⚠️ Troque pela sua URL de postback real depois
 const POSTBACK_BASE = 'https://tsyndicate.com/api/v1/cpa/action';
-const POSTBACK_KEY = '2Z7H1QGuujUPNCSHgpaCE16Ftw2dCMXeiKX4';
-const POSTBACK_GOAL = '5112';
+const POSTBACK_KEY = 'RNKjkQtmAZMRHf1essIJQYD4AQJhiE50O99R';
+const POSTBACK_GOAL = '5138';
 
 function extractClickId(data) {
   return (
